@@ -1,0 +1,20 @@
+{
+  "name": "nbl/nblaskar",
+  "description": "this is a testing package",
+  "require": {},
+  "autoload": {
+    "files": [
+      "realme/realme2.php",
+      "redmi/redmi2.php",
+      "redmi/redmi3.php"
+    ],
+    "classmap": [
+      "realme/realmemobile.php",
+      "redmi/redmimobile.php",
+      "myclasses/"
+    ],
+    "exclude-from-classmap": [
+      "./myclasses/class2.php"
+    ]
+  }
+}

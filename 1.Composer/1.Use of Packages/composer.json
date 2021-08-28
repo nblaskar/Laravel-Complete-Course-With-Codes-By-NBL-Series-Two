@@ -1,0 +1,17 @@
+{
+    "name": "nblaskarsolution/nbl",
+    "description": "This is a Custom Package for testing purpose",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rahul",
+            "email": "nbl@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "dompdf/dompdf": "^1.0"
+    }
+}

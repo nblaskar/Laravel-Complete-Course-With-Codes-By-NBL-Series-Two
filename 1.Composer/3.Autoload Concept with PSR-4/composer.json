@@ -1,0 +1,12 @@
+{
+  "name": "nbl/nblaskar",
+  "description": "This is Testing Package",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Product\\Cool\\": "Items/",
+      "Product\\": "Items",
+      "Khana\\Pakistan\\": "Items/Pakistan"
+    }
+  }
+}
